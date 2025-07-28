@@ -19,7 +19,7 @@ collections:
           name: "description",
           widget: "string",
           default: "这是一篇有意思的文章",
-          required: true,
+          required: false,
         }
       - {
           label: "发布日期",
@@ -27,6 +27,20 @@ collections:
           widget: "datetime",
           date_format: "YYYY-MM-DD",
           time_format: "HH:mm",
+          required: true,
+        }
+      - {
+          label: "ogImage",
+          name: "ogImage",
+          widget: "string",
+          default: "戴珍珠耳环的少女卡通.png",
+          required: true,
+        }
+      - {
+          label: "coverImage",
+          name: "coverImage",
+          widget: "string",
+          default: "戴珍珠耳环的少女卡通.png",
           required: true,
         }
       - { label: "正文", name: "body", widget: "markdown" }
@@ -57,7 +71,7 @@ collections:
           label: "ogImage",
           name: "ogImage",
           widget: "string",
-          default: "/social-card.avif",
+          default: "戴珍珠耳环的少女卡通.png",
           required: true,
         }
       - { label: "正文", name: "body", widget: "markdown" }
