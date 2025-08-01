@@ -34,7 +34,7 @@ collections:
           label: "coverImage",
           name: "coverImage",
           widget: "string",
-          default: "/戴珍珠耳环的少女卡通.png",
+          default: "./戴珍珠耳环的少女卡通.png",
           required: true,
         }
       - { label: "正文", name: "body", widget: "markdown" }
