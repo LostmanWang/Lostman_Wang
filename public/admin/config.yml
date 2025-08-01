@@ -29,6 +29,7 @@ collections:
           time_format: "HH:mm",
           required: true,
         }
+      - { label: "标签", name: "tags", widget: "list", required: true }
       - {
           label: "coverImage",
           name: "coverImage",
@@ -36,7 +37,6 @@ collections:
           default: "/戴珍珠耳环的少女卡通.png",
           required: true,
         }
-      - { label: "标签", name: "tags", widget: "list", required: true }
       - { label: "正文", name: "body", widget: "markdown" }
 
   - name: "post"
